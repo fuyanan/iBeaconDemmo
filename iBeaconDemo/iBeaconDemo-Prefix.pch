@@ -9,7 +9,10 @@
 #ifndef __IPHONE_5_0
 #warning "This project uses features only available in iOS SDK 5.0 and later."
 #endif
-
+//作为设备系列的标识
+//比如你开发一个A商场是一个UUID标识
+//           B商场有是一个UUID标识
+#define KUUID@"E2C56DB5-DFFB-48D2-B060-D0F5A71096E4"
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>

@@ -22,6 +22,8 @@
 		BC21C51019D02F170079687B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC21C4EF19D02F170079687B /* UIKit.framework */; };
 		BC21C51819D02F170079687B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC21C51619D02F170079687B /* InfoPlist.strings */; };
 		BC21C51A19D02F170079687B /* iBeaconDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC21C51919D02F170079687B /* iBeaconDemoTests.m */; };
+		BC21C52519D02F550079687B /* IbeaconServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC21C52419D02F550079687B /* IbeaconServer.m */; };
+		BC21C52819D034D30079687B /* IbeaconClient.m in Sources */ = {isa = PBXBuildFile; fileRef = BC21C52719D034D30079687B /* IbeaconClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		BC21C51519D02F170079687B /* iBeaconDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBeaconDemoTests-Info.plist"; sourceTree = "<group>"; };
 		BC21C51719D02F170079687B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC21C51919D02F170079687B /* iBeaconDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBeaconDemoTests.m; sourceTree = "<group>"; };
+		BC21C52319D02F550079687B /* IbeaconServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IbeaconServer.h; sourceTree = "<group>"; };
+		BC21C52419D02F550079687B /* IbeaconServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IbeaconServer.m; sourceTree = "<group>"; };
+		BC21C52619D034D30079687B /* IbeaconClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IbeaconClient.h; sourceTree = "<group>"; };
+		BC21C52719D034D30079687B /* IbeaconClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IbeaconClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,10 @@
 				BC21C50019D02F170079687B /* Main_iPad.storyboard */,
 				BC21C50319D02F170079687B /* fynViewController.h */,
 				BC21C50419D02F170079687B /* fynViewController.m */,
+				BC21C52319D02F550079687B /* IbeaconServer.h */,
+				BC21C52419D02F550079687B /* IbeaconServer.m */,
+				BC21C52619D034D30079687B /* IbeaconClient.h */,
+				BC21C52719D034D30079687B /* IbeaconClient.m */,
 				BC21C50619D02F170079687B /* Images.xcassets */,
 				BC21C4F219D02F170079687B /* Supporting Files */,
 			);
@@ -255,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC21C50519D02F170079687B /* fynViewController.m in Sources */,
+				BC21C52819D034D30079687B /* IbeaconClient.m in Sources */,
 				BC21C4FC19D02F170079687B /* fynAppDelegate.m in Sources */,
+				BC21C52519D02F550079687B /* IbeaconServer.m in Sources */,
 				BC21C4F819D02F170079687B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
